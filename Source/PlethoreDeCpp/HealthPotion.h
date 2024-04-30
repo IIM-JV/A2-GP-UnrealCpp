@@ -18,5 +18,5 @@ class PLETHOREDECPP_API AHealthPotion : public AItem
 		void Use(class APlethoreDeCppCharacter* Character) override;
 
 		UPROPERTY(EditAnywhere, meta = (ClampMax = 100, ClampMin = 1))
-		int32 HealValue = 10;
+		int32 HealValue = 20;
 };
